@@ -18,6 +18,16 @@
     background-attachment: fixed;
 }
 
+/* =========== Cursor =========== */
+.cursor-none{
+	cursor:none;
+}
+.cursor-pointer{
+	cursor:pointer;
+}
+.cursor-zoom-in{
+	cursor:zoom-in;
+}
 
 /* =========== margin =========== */
 .group-hover:hover .hover-mt-n3,
