@@ -4,7 +4,7 @@
 ==========================================================
 ======================================================== */
 
-/* --- background --- */
+/* =========== background =========== */
 .bg-no-repeat {
     background-repeat: no-repeat;
 }
@@ -19,7 +19,106 @@
 }
 
 
-/* -------- Scale ---------- */
+/* =========== margin =========== */
+.group-hover:hover .hover-mt-n3,
+.hover-mt-n3:hover{
+    margin-top: -1rem;
+}
+.group-hover:hover .hover-mt-n4,
+.hover-mt-n4:hover{
+    margin-top: -1.5rem;
+}
+.group-hover:hover .hover-mt-n5,
+.hover-mt-n5:hover{
+    margin-top: -3rem;
+}
+
+/* =========== Opacity =========== */
+.opacity-0{
+    opacity: 0!important;
+}
+.group-hover:hover .hover-opacity-0,
+.hover-opacity-0:hover{
+    opacity:0!important;
+}
+.group-hover:hover .hover-opacity-10,
+.hover-opacity-10:hover{
+   -opacity:.1!important;
+}
+.group-hover:hover .hover-opacity-20,
+.hover-opacity-20:hover{
+    opacity:.2!important;
+}
+.group-hover:hover .hover-opacity-30,
+.hover-opacity-30:hover{
+   opacity:.3!important;
+}
+.group-hover:hover .hover-opacity-40,
+.hover-opacity-40:hover{
+    opacity:.4!important;
+}
+.group-hover:hover .hover-opacity-50,
+.hover-opacity-50:hover{
+    opacity:.5!important;
+}
+.group-hover:hover .hover-opacity-80,
+.hover-opacity-80:hover{
+    opacity:.8!important;
+}
+.group-hover:hover .hover-opacity-90,
+.hover-opacity-90:hover{
+    opacity:.9!important;
+}
+.group-hover:hover .hover-opacity-100,
+.hover-opacity-100:hover{
+    opacity:1!important;
+}
+/* bg-opacity hover */
+.bg-opacity-0{
+    --bs-bg-opacity: 0 !important;
+}
+.group-hover:hover .hover-bg-opacity-0,
+.hover-bg-opacity-0:hover{
+    --bs-bg-opacity:0!important;
+}
+.group-hover:hover .hover-bg-opacity-10,
+.hover-bg-opacity-10:hover{
+    --bs-bg-opacity:.1!important;
+}
+.group-hover:hover .hover-bg-opacity-20,
+.hover-bg-opacity-20:hover{
+    --bs-bg-opacity:.2!important;
+}
+.group-hover:hover .hover-bg-opacity-25,
+.hover-bg-opacity-25:hover{
+    --bs-bg-opacity:.2!important;
+}
+.group-hover:hover .hover-bg-opacity-30,
+.hover-bg-opacity-30:hover{
+    --bs-bg-opacity:.3!important;
+}
+.group-hover:hover .hover-bg-opacity-40,
+.hover-bg-opacity-40:hover{
+    --bs-bg-opacity:.4!important;
+}
+.group-hover:hover .hover-bg-opacity-50,
+.hover-bg-opacity-50:hover{
+    --bs-bg-opacity:.5!important;
+}
+.group-hover:hover .hover-bg-opacity-80,
+.hover-bg-opacity-80:hover{
+    --bs-bg-opacity:.8!important;
+}
+.group-hover:hover .hover-bg-opacity-90,
+.hover-bg-opacity-90:hover{
+    --bs-bg-opacity:.9!important;
+}
+.group-hover:hover .hover-bg-opacity-100,
+.hover-bg-opacity-100:hover{
+    --bs-bg-opacity:1!important;
+}
+
+/* ========== Scale =========== */
 .group-hover:hover .hover-scale-110,
 .hover-scale-110:hover{
 	transform:scale(1.1);
@@ -72,7 +171,8 @@
 .hover-scale-200:hover{
 	transform:scale(2);
 }
-/* -------- Tansition ---------- */
+
+/* =========== Tansition =========== */
 .transition-300{
 	transition: all .3s;
 }
@@ -96,4 +196,13 @@
 }
 .transition-1000{
 	transition: all 1s;
+}
+
+/* =========== Transfrom =========== */
+.transform-rotateY-90{
+  transform:rotateY(90deg);
+}
+.group-hover:hover .hover-transform-rotateY-0,
+.hover-transform-rotateY-0:hover{
+    transform:rotateY(0);
 }
