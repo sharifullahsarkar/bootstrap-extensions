@@ -1,0 +1,99 @@
+/* =======================================================
+================== Bootstrap Extensions ==================
+================ Md. Sharif Ullah Sarkar =================
+==========================================================
+======================================================== */
+
+/* --- background --- */
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-position-center {
+    background-position: center;
+}
+.bg-attachment-fixed {
+    background-attachment: fixed;
+}
+
+
+/* -------- Scale ---------- */
+.group-hover:hover .hover-scale-110,
+.hover-scale-110:hover{
+	transform:scale(1.1);
+}
+.group-hover:hover .hover-scale-115,
+.hover-scale-115:hover{
+	transform:scale(1.15);
+}
+.group-hover:hover .hover-scale-120,
+.hover-scale-120:hover{
+	transform:scale(1.2);
+}
+.group-hover:hover .hover-scale-125,
+.hover-scale-125:hover{
+	transform:scale(1.25);
+}
+.group-hover:hover .hover-scale-130,
+.hover-scale-130:hover{
+	transform:scale(1.3);
+}
+.group-hover:hover .hover-scale-140,
+.hover-scale-140:hover{
+	transform:scale(1.4);
+}
+.group-hover:hover .hover-scale-150,
+.hover-scale-150:hover{
+	transform:scale(1.5);
+}
+.group-hover:hover .hover-scale-160,
+.hover-scale-160:hover{
+	transform:scale(1.6);
+}
+.group-hover:hover .hover-scale-170,
+.hover-scale-170:hover{
+	transform:scale(1.7);
+}
+.group-hover:hover .hover-scale-175,
+.hover-scale-175:hover{
+	transform:scale(1.75);
+}
+.group-hover:hover .hover-scale-180,
+.hover-scale-180:hover{
+	transform:scale(1.8);
+}
+.group-hover:hover .hover-scale-190,
+.hover-scale-190:hover{
+	transform:scale(1.9);
+}
+.group-hover:hover .hover-scale-200,
+.hover-scale-200:hover{
+	transform:scale(2);
+}
+/* -------- Tansition ---------- */
+.transition-300{
+	transition: all .3s;
+}
+.transition-400{
+	transition: all .4s;
+}
+.transition-500{
+	transition: all .5s;
+}
+.transition-600{
+	transition: all .6s;
+}
+.transition-700{
+	transition: all .7s;
+}
+.transition-800{
+	transition: all .8s;
+}
+.transition-900{
+	transition: all .9s;
+}
+.transition-1000{
+	transition: all 1s;
+}
