@@ -28,7 +28,13 @@
 .cursor-zoom-in{
 	cursor:zoom-in;
 }
-
+/* =========== List =========== */
+.bg-transparent>.list-group-item{
+	background-color:transparent!important;
+}
+.border-0>.list-group-item{
+	border:0!important;
+}
 /* =========== margin =========== */
 .group-hover:hover .hover-mt-n3,
 .hover-mt-n3:hover{
