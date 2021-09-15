@@ -4,7 +4,7 @@
 ==========================================================
 ======================================================== */
 
-/* =========== background =========== */
+/* =========== Background =========== */
 .bg-no-repeat {
     background-repeat: no-repeat;
 }
@@ -180,6 +180,30 @@
 .group-hover:hover .hover-scale-200,
 .hover-scale-200:hover{
 	transform:scale(2);
+}
+
+/* =========== Scroll =========== */
+.scroll-sm::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-lg::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.scroll-sm::-webkit-scrollbar-thumb,
+.scroll::-webkit-scrollbar-thumb,
+.scroll-lg::-webkit-scrollbar-thumb{
+  background: #06060652; 
+}
+.scroll-sm::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-track,
+.scroll-lg::-webkit-scrollbar-track{
+  background: #00000025; 
 }
 
 /* =========== Tansition =========== */
