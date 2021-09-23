@@ -255,6 +255,12 @@
 
 /* ------- xxl ------- */
 @media (min-width: 1400px){
+	
+	/* ----- b ----- */
+	.border-xxl-0{
+		border:0!important;
+	}
+	
 	/* ----- p ----- */
 	.position-xxl-static{
 		position:static!important;
@@ -273,6 +279,11 @@
 	
 /* ------- xl ------- */
 @media (min-width: 1200px){
+	/* ----- b ----- */
+	.border-xl-0{
+		border:0!important;
+	}
+	
 	/* ----- p ----- */
 	.position-xl-static{
 		position:static!important;
@@ -290,6 +301,11 @@
 	
 /* ------- lg ------- */
 @media (min-width: 992px){
+	/* ----- b ----- */
+	.border-lg-0{
+		border:0!important;
+	}
+	
 	/* ----- p ----- */
 	.position-lg-static{
 		position:static!important;
@@ -307,6 +323,11 @@
 	
 /* ------- md ------- */
 @media (min-width: 768px){
+	/* ----- b ----- */
+	.border-md-0{
+		border:0!important;
+	}
+	
 	/* ----- p ----- */
 	.position-md-static{
 		position:static!important;
@@ -324,6 +345,11 @@
 	
 /* ------- sm ------- */
 @media (min-width: 576px){
+	/* ----- b ----- */
+	.border-sm-0{
+		border:0!important;
+	}
+	
 	/* ----- p ----- */
 	.position-sm-static{
 		position:static!important;
