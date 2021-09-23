@@ -1,7 +1,7 @@
 /* =======================================================
 ================== Bootstrap Extensions ==================
 ================ Md. Sharif Ullah Sarkar =================
-==========================================================
+================ Explore Tech Solutions ==================
 ======================================================== */
 
 /* =========== Background =========== */
@@ -213,6 +213,49 @@
 }
 
 /* =========== Tansition =========== */
+/*----- Text Color ----- */
+
+.group-hover:hover .hover-text-primary,
+.hover-text-primary:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-secondary,
+.hover-text-secondary:hover{
+	--bs-text-opacity: 1;
+    	color: rgba(var(--bs-secondary-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-success,
+.hover-text-success:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-success-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-danger,
+.hover-text-danger:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-warning,
+.hover-text-warning:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-info,
+.hover-text-info:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-info-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-light,
+.hover-text-light:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
+}
+.group-hover:hover .hover-text-dark,
+.hover-text-dark:hover{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;
+}	
+	
 .transition-all{
 	transition:all;
 }
