@@ -249,3 +249,48 @@
 .hover-transform-rotateY-0:hover{
     transform:rotateY(0);
 }
+	
+	
+/* ================= Media CSS ============== */	
+
+/* ------- xxl ------- */
+@media (min-width: 1400px){
+	/* ----- p ----- */
+	.position-xxl-static{
+		position:static!important;
+	}
+}
+	
+/* ------- xl ------- */
+@media (min-width: 1200px){
+	/* ----- p ----- */
+	.position-xl-static{
+		position:static!important;
+	}
+}
+	
+/* ------- lg ------- */
+@media (min-width: 992px){
+	/* ----- p ----- */
+	.position-lg-static{
+		position:static!important;
+	}
+}
+	
+/* ------- md ------- */
+@media (min-width: 768px){
+	/* ----- p ----- */
+	.position-md-static{
+		position:static!important;
+	}
+}
+	
+/* ------- sm ------- */
+@media (min-width: 576px){
+	/* ----- p ----- */
+	.position-sm-static{
+		position:static!important;
+	}
+}
+		
+	
