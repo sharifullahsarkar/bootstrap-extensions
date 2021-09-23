@@ -17,6 +17,10 @@
 .bg-attachment-fixed {
     background-attachment: fixed;
 }
+/* =========== Box Shadow =========== */
+.box-shadow-none{
+	box-shadow:none!important;
+}
 
 /* =========== Cursor =========== */
 .cursor-none{
