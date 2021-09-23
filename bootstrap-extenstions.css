@@ -259,6 +259,11 @@
 	.position-xxl-static{
 		position:static!important;
 	}
+	
+	/* ----- t ----- */
+	.transform-translate-x-xxl-0{
+		transform: translateX(0)!important;
+	}
 }
 	
 /* ------- xl ------- */
@@ -266,6 +271,10 @@
 	/* ----- p ----- */
 	.position-xl-static{
 		position:static!important;
+	}
+	/* ----- t ----- */
+	.transform-translate-x-xl-0{
+		transform: translateX(0)!important;
 	}
 }
 	
@@ -275,6 +284,10 @@
 	.position-lg-static{
 		position:static!important;
 	}
+	/* ----- t ----- */
+	.transform-translate-x-lg-0{
+		transform: translateX(0)!important;
+	}
 }
 	
 /* ------- md ------- */
@@ -283,6 +296,10 @@
 	.position-md-static{
 		position:static!important;
 	}
+	/* ----- t ----- */
+	.transform-translate-x-md-0{
+		transform: translateX(0)!important;
+	}
 }
 	
 /* ------- sm ------- */
@@ -290,6 +307,10 @@
 	/* ----- p ----- */
 	.position-sm-static{
 		position:static!important;
+	}
+	/* ----- t ----- */
+	.transform-translate-x-sm-0{
+		transform: translateX(0)!important;
 	}
 }
 		
