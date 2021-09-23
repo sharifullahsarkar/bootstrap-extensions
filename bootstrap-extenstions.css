@@ -264,6 +264,11 @@
 	.transform-translate-x-xxl-0{
 		transform: translateX(0)!important;
 	}
+	
+	/* ----- v ----- */
+	.visibility-xxl-visible{
+		visibility:visible!important;
+	}
 }
 	
 /* ------- xl ------- */
@@ -275,6 +280,11 @@
 	/* ----- t ----- */
 	.transform-translate-x-xl-0{
 		transform: translateX(0)!important;
+	}
+	
+	/* ----- v ----- */
+	.visibility-xl-visible{
+		visibility:visible!important;
 	}
 }
 	
@@ -288,6 +298,11 @@
 	.transform-translate-x-lg-0{
 		transform: translateX(0)!important;
 	}
+	
+	/* ----- v ----- */
+	.visibility-lg-visible{
+		visibility:visible!important;
+	}
 }
 	
 /* ------- md ------- */
@@ -300,6 +315,11 @@
 	.transform-translate-x-md-0{
 		transform: translateX(0)!important;
 	}
+	
+	/* ----- v ----- */
+	.visibility-md-visible{
+		visibility:visible!important;
+	}
 }
 	
 /* ------- sm ------- */
@@ -311,6 +331,11 @@
 	/* ----- t ----- */
 	.transform-translate-x-sm-0{
 		transform: translateX(0)!important;
+	}
+	
+	/* ----- v ----- */
+	.visibility-sm-visible{
+		visibility:visible!important;
 	}
 }
 		
