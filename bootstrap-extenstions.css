@@ -17,6 +17,23 @@
 .bg-attachment-fixed {
     background-attachment: fixed;
 }
+
+/* =========== Border =========== */
+.border-dashed{
+    border-style: dashed;
+}
+.border-dotted{
+    border-style: dotted;
+}
+.border-double{
+    border-style: double;
+}
+.border-inset{
+    border-style: inset;
+}
+.border-outset{
+    border-style: outset;
+}
 /* =========== Box Shadow =========== */
 .box-shadow-none{
 	box-shadow:none!important;
