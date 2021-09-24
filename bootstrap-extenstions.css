@@ -110,6 +110,10 @@
 .hover-opacity-100:hover{
     opacity:1!important;
 }
+.group-hover:hover .hover-bg-transparent,
+.hover-bg-transparent:hover{
+    background-color:transparent!important;
+}
 /* bg-opacity hover */
 .bg-opacity-0{
     --bs-bg-opacity: 0 !important;
