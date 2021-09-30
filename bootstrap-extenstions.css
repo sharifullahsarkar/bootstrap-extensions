@@ -225,7 +225,10 @@
 .hover-scale-200:hover{
 	transform:scale(2);
 }
-
+/* =========== Outline =========== */
+.outline-0{
+	outline:0!important;
+}
 /* =========== Scroll =========== */
 .scroll-sm::-webkit-scrollbar {
   width: 6px;
