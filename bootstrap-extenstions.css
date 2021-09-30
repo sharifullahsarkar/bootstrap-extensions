@@ -158,7 +158,20 @@
 .hover-bg-opacity-100:hover{
     --bs-bg-opacity:1!important;
 }
-
+/* ========== Positioning  =========== */
+.top-auto{
+    top:auto!important;
+}
+.end-auto{
+   right:auto!important;
+}
+.bottom-auto{
+   bottom:auto!important;
+}
+.start-auto{
+   left:auto!important;
+}
+	
 /* ========== Scale =========== */
 .group-hover:hover .hover-scale-110,
 .hover-scale-110:hover{
