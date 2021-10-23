@@ -163,6 +163,10 @@
 .hover-bg-opacity-100:hover{
     --bs-bg-opacity:1!important;
 }
+/* =========== Outline =========== */
+.outline-0{
+	outline:0!important;
+}
 /* ========== Positioning  =========== */
 .top-auto{
     top:auto!important;
@@ -230,10 +234,20 @@
 .hover-scale-200:hover{
 	transform:scale(2);
 }
-/* =========== Outline =========== */
-.outline-0{
-	outline:0!important;
+/* =========== Shadow =========== */
+.group-hover:hover .hover-shadow-sm,
+.hover-shadow-sm:hover {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
+.group-hover:hover .hover-shadow,
+.hover-shadow:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.group-hover:hover .hover-shadow-lg,
+.hover-shadow-lg:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
 /* =========== Scroll =========== */
 .scroll-sm::-webkit-scrollbar {
   width: 6px;
