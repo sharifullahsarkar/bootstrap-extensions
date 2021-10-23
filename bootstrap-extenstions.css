@@ -3,7 +3,12 @@
 ================ Md. Sharif Ullah Sarkar =================
 ================ Explore Tech Solutions ==================
 ======================================================== */
-
+/* =========== Accordion Button =========== */
+.accordion-button-sm::after {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-size: 0.7rem;
+}
 /* =========== Background =========== */
 .bg-no-repeat {
     background-repeat: no-repeat;
