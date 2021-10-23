@@ -39,6 +39,14 @@
 .border-outset{
     border-style: outset;
 }
+.border-transparent{
+	border-color:transparent!important;
+}
+.group-hover:hover .hover-border-visible,
+.hover-border-visible:hover{
+    border-color:inherit!important;
+}
+
 /* =========== Box Shadow =========== */
 .box-shadow-none{
 	box-shadow:none!important;
