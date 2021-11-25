@@ -397,14 +397,13 @@
 	}
 	
 	/* ------------------------- T ------------------------- */
-	.transform-translate-x-xxl-0{
-		transform: translateX(0)!important;
-	}
+	.transform-translate-x-xxl-0{transform: translateX(0)!important;}
 	
 	/* ------------------------- V ------------------------- */
-	.visibility-xxl-visible{
-		visibility:visible!important;
-	}
+	.visibility-xxl-visible{visibility:visible!important;}
+	
+	/* ------------------------- W ------------------------- */
+	.w-xxl-auto{width: auto!important;}
 }
 	
 /* ------- xl ------- */
@@ -437,14 +436,13 @@
 		position:sticky!important;
 	}
 	/* ------------------------- T ------------------------- */
-	.transform-translate-x-xl-0{
-		transform: translateX(0)!important;
-	}
+	.transform-translate-x-xl-0{transform: translateX(0)!important;}
 	
 	/* ------------------------- V ------------------------- */
-	.visibility-xl-visible{
-		visibility:visible!important;
-	}
+	.visibility-xl-visible{visibility:visible!important;}
+	
+	/* ------------------------- W ------------------------- */
+	.w-xl-auto{width: auto!important;}
 }
 	
 /* ------- lg ------- */
@@ -478,14 +476,13 @@
 		position:sticky!important;
 	}
 	/* ------------------------- T ------------------------- */
-	.transform-translate-x-lg-0{
-		transform: translateX(0)!important;
-	}
+	.transform-translate-x-lg-0{transform: translateX(0)!important;}
 	
 	/* ------------------------- V ------------------------- */
-	.visibility-lg-visible{
-		visibility:visible!important;
-	}
+	.visibility-lg-visible{visibility:visible!important;}
+	
+	/* ------------------------- W ------------------------- */
+	.w-lg-auto{width: auto!important;}
 }
 	
 /* ------- md ------- */
@@ -519,14 +516,13 @@
 		position:sticky!important;
 	}
 	/* ------------------------- T ------------------------- */
-	.transform-translate-x-md-0{
-		transform: translateX(0)!important;
-	}
+	.transform-translate-x-md-0{transform: translateX(0)!important;}
 	
 	/* ------------------------- V ------------------------- */
-	.visibility-md-visible{
-		visibility:visible!important;
-	}
+	.visibility-md-visible{visibility:visible!important;}
+	
+	/* ------------------------- W ------------------------- */
+	.w-md-auto{width: auto!important;}
 }
 	
 /* ------- sm ------- */
@@ -560,14 +556,13 @@
 		position:sticky!important;
 	}
 	/* ------------------------- T ------------------------- */
-	.transform-translate-x-sm-0{
-		transform: translateX(0)!important;
-	}
+	.transform-translate-x-sm-0{transform: translateX(0)!important;}
 	
 	/* ------------------------- V ------------------------- */
-	.visibility-sm-visible{
-		visibility:visible!important;
-	}
+	.visibility-sm-visible{visibility:visible!important;}
+	
+	/* ------------------------- W ------------------------- */
+	.w-sm-auto{width: auto!important;}
 }
 		
 	
