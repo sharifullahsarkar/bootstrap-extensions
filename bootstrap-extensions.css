@@ -370,7 +370,7 @@
 	/* ------------------------- B ------------------------- */
 	.border-xxl-0{ border:0!important;}
 	
-	.bg-xxl-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	.bg-xxl-transparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -412,7 +412,7 @@
 	/* ------------------------- B ------------------------- */
 	.border-xl-0{ border:0!important; }
 	
-	.bg-xl-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	.bg-xl-transparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
 	.lh-xl-1{  line-height: 1!important; }
@@ -452,7 +452,7 @@
 	/* ------------------------- B ------------------------- */
 	.border-lg-0{ border:0!important; }
 	
-	.bg-lg-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	.bg-lg-transparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -493,7 +493,7 @@
 	/* ------------------------- B ------------------------- */
 	.border-md-0{border:0!important;}
 	
-	.bg-md-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	.bg-md-transparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -534,7 +534,7 @@
 	/* ------------------------- B ------------------------- */
 	.border-sm-0{border:0!important;}
 	
-	.bg-sm-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	.bg-sm-transparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
