@@ -367,10 +367,11 @@
 /* ------- xxl ------- */
 @media (min-width: 1400px){
 	
-	/* ----- b ----- */
-	.border-xxl-0{
-		border:0!important;
-	}
+	/* ------------------------- B ------------------------- */
+	.border-xxl-0{ border:0!important;}
+	
+	.bg-xxl-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
+	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
 	.lh-xxl-1{  line-height: 1!important; }
@@ -378,7 +379,7 @@
 	.lh-xxl-base{  line-height: 1.5!important; }
 	.lh-xxl-lg{  line-height: 2!important; }
 	
-	/* ----- p ----- */
+	/* ------------------------- P ------------------------- */
 	.position-xxl-static{
 		position:static!important;
 	}
@@ -395,12 +396,12 @@
 		position:sticky!important;
 	}
 	
-	/* ----- t ----- */
+	/* ------------------------- T ------------------------- */
 	.transform-translate-x-xxl-0{
 		transform: translateX(0)!important;
 	}
 	
-	/* ----- v ----- */
+	/* ------------------------- V ------------------------- */
 	.visibility-xxl-visible{
 		visibility:visible!important;
 	}
@@ -408,11 +409,10 @@
 	
 /* ------- xl ------- */
 @media (min-width: 1200px){
-	/* ----- b ----- */
-	.border-xl-0{
-		border:0!important;
-	}
+	/* ------------------------- B ------------------------- */
+	.border-xl-0{ border:0!important; }
 	
+	.bg-xl-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
 	.lh-xl-1{  line-height: 1!important; }
@@ -420,7 +420,7 @@
 	.lh-xl-base{  line-height: 1.5!important; }
 	.lh-xl-lg{  line-height: 2!important; }
 	
-	/* ----- p ----- */
+	/* ------------------------- P ------------------------- */
 	.position-xl-static{
 		position:static!important;
 	}
@@ -436,12 +436,12 @@
 	.position-xl-sticky{
 		position:sticky!important;
 	}
-	/* ----- t ----- */
+	/* ------------------------- T ------------------------- */
 	.transform-translate-x-xl-0{
 		transform: translateX(0)!important;
 	}
 	
-	/* ----- v ----- */
+	/* ------------------------- V ------------------------- */
 	.visibility-xl-visible{
 		visibility:visible!important;
 	}
@@ -449,10 +449,10 @@
 	
 /* ------- lg ------- */
 @media (min-width: 992px){
-	/* ----- b ----- */
-	.border-lg-0{
-		border:0!important;
-	}
+	/* ------------------------- B ------------------------- */
+	.border-lg-0{ border:0!important; }
+	
+	.bg-lg-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -461,7 +461,7 @@
 	.lh-lg-base{  line-height: 1.5!important; }
 	.lh-lg-lg{  line-height: 2!important; }
 	
-	/* ----- p ----- */
+	/* ------------------------- P ------------------------- */
 	.position-lg-static{
 		position:static!important;
 	}
@@ -477,12 +477,12 @@
 	.position-lg-sticky{
 		position:sticky!important;
 	}
-	/* ----- t ----- */
+	/* ------------------------- T ------------------------- */
 	.transform-translate-x-lg-0{
 		transform: translateX(0)!important;
 	}
 	
-	/* ----- v ----- */
+	/* ------------------------- V ------------------------- */
 	.visibility-lg-visible{
 		visibility:visible!important;
 	}
@@ -490,10 +490,10 @@
 	
 /* ------- md ------- */
 @media (min-width: 768px){
-	/* ----- b ----- */
-	.border-md-0{
-		border:0!important;
-	}
+	/* ------------------------- B ------------------------- */
+	.border-md-0{border:0!important;}
+	
+	.bg-md-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -502,7 +502,7 @@
 	.lh-md-base{  line-height: 1.5!important; }
 	.lh-md-lg{  line-height: 2!important; }
 	
-	/* ----- p ----- */
+	/* ------------------------- P ------------------------- */
 	.position-md-static{
 		position:static!important;
 	}
@@ -518,12 +518,12 @@
 	.position-md-sticky{
 		position:sticky!important;
 	}
-	/* ----- t ----- */
+	/* ------------------------- T ------------------------- */
 	.transform-translate-x-md-0{
 		transform: translateX(0)!important;
 	}
 	
-	/* ----- v ----- */
+	/* ------------------------- V ------------------------- */
 	.visibility-md-visible{
 		visibility:visible!important;
 	}
@@ -531,10 +531,10 @@
 	
 /* ------- sm ------- */
 @media (min-width: 576px){
-	/* ----- b ----- */
-	.border-sm-0{
-		border:0!important;
-	}
+	/* ------------------------- B ------------------------- */
+	.border-sm-0{border:0!important;}
+	
+	.bg-sm-tranparent{--bs-bg-opacity: 1; background-color: transparent!important;}
 	
 	/* ------------------------- L ------------------------- */
 	/* -- Line Height -- */
@@ -543,7 +543,7 @@
 	.lh-sm-base{  line-height: 1.5!important; }
 	.lh-sm-lg{  line-height: 2!important; }
 	
-	/* ----- p ----- */
+	/* ------------------------- P ------------------------- */
 	.position-sm-static{
 		position:static!important;
 	}
@@ -559,12 +559,12 @@
 	.position-sm-sticky{
 		position:sticky!important;
 	}
-	/* ----- t ----- */
+	/* ------------------------- T ------------------------- */
 	.transform-translate-x-sm-0{
 		transform: translateX(0)!important;
 	}
 	
-	/* ----- v ----- */
+	/* ------------------------- V ------------------------- */
 	.visibility-sm-visible{
 		visibility:visible!important;
 	}
