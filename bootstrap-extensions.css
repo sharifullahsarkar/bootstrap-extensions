@@ -69,6 +69,16 @@
 .border-0>.list-group-item{
 	border:0!important;
 }
+/* =========== Font Weight =========== */
+.fw-100{font-weight: 100!important;}
+.fw-200{font-weight: 200!important;}
+.fw-300{font-weight: 300!important;}
+.fw-400{font-weight: 400!important;}
+.fw-500{font-weight: 500!important;}
+.fw-600{font-weight: 600!important;}
+.fw-700{font-weight: 700!important;}
+.fw-800{font-weight: 800!important;}
+.fw-900{font-weight: 900!important;}
 /* =========== margin =========== */
 .group-hover:hover .hover-mt-n3,
 .hover-mt-n3:hover{
@@ -82,20 +92,17 @@
 .hover-mt-n5:hover{
     margin-top: -3rem;
 }
-/* =========== Font Weight =========== */
-.fw-100{font-weight: 100!important;}
-.fw-200{font-weight: 200!important;}
-.fw-300{font-weight: 300!important;}
-.fw-400{font-weight: 400!important;}
-.fw-500{font-weight: 500!important;}
-.fw-600{font-weight: 600!important;}
-.fw-700{font-weight: 700!important;}
-.fw-800{font-weight: 800!important;}
-.fw-900{font-weight: 900!important;}
 /* =========== Opacity =========== */
-.opacity-0{
-    opacity: 0!important;
-}
+.opacity-0{ opacity: 0!important;}
+.opacity-10{ opacity: .1!important;}
+.opacity-20{ opacity: .2!important;}
+.opacity-30{ opacity: .3!important;}
+.opacity-40{ opacity: .4!important;}
+.opacity-60{ opacity: .6!important;}
+.opacity-70{ opacity: .7!important;}
+.opacity-80{ opacity: .8!important;}
+.opacity-90{ opacity: .9!important;}
+
 .group-hover:hover .hover-opacity-0,
 .hover-opacity-0:hover{
     opacity:0!important;
