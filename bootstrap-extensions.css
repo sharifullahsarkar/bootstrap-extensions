@@ -10,18 +10,17 @@
     background-size: 0.7rem;
 }
 /* =========== Background =========== */
-.bg-no-repeat {
-    background-repeat: no-repeat;
-}
-.bg-size-cover {
-    background-size: cover;
-}
-.bg-position-center {
-    background-position: center;
-}
-.bg-attachment-fixed {
-    background-attachment: fixed;
-}
+.bg-no-repeat { background-repeat: no-repeat;}
+.bg-size-cover { background-size: cover;}
+.bg-size-contain { background-size: contain;}
+
+.bg-position-top { background-position: top;}
+.bg-position-right { background-position: right;}
+.bg-position-bottom { background-position: bottom;}
+.bg-position-left { background-position: left;}
+.bg-position-center { background-position: center;}
+
+.bg-attachment-fixed {background-attachment: fixed;}
 
 /* =========== Border =========== */
 .border-dashed{
