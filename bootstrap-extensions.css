@@ -91,6 +91,12 @@
 .hover-mt-n5:hover{
     margin-top: -3rem;
 }
+
+/* =========== Object Fit =========== */
+.object-fit-contain{ object-fit:contain;}
+.object-fit-cover{ object-fit:cover;}
+.object-fit-fill{ object-fit:fill;}
+
 /* =========== Opacity =========== */
 .opacity-0{ opacity: 0!important;}
 .opacity-10{ opacity: .1!important;}
