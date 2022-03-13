@@ -149,9 +149,17 @@
     background-color:transparent!important;
 }
 /* bg-opacity hover */
-.bg-opacity-0{
-    --bs-bg-opacity: 0 !important;
-}
+.bg-opacity-0{ --bs-bg-opacity: 0 !important;}
+.bg-opacity-10{ --bs-bg-opacity:.1!important;}
+.bg-opacity-20{ --bs-bg-opacity:.2!important;}
+.bg-opacity-30{ --bs-bg-opacity:.3!important;}
+.bg-opacity-40{ --bs-bg-opacity:.4!important;}
+.bg-opacity-50{ --bs-bg-opacity:.5!important;}
+.bg-opacity-60{ --bs-bg-opacity:.6!important;}
+.bg-opacity-70{ --bs-bg-opacity:.7!important;}
+.bg-opacity-80{ --bs-bg-opacity:.8!important;}
+.bg-opacity-90{ --bs-bg-opacity:.9!important;}
+	
 .group-hover:hover .hover-bg-opacity-0,
 .hover-bg-opacity-0:hover{
     --bs-bg-opacity:0!important;
