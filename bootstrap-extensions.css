@@ -188,6 +188,14 @@
 .hover-bg-opacity-50:hover{
     --bs-bg-opacity:.5!important;
 }
+.group-hover:hover .hover-bg-opacity-60,
+.hover-bg-opacity-60:hover{
+    --bs-bg-opacity:.6!important;
+}
+.group-hover:hover .hover-bg-opacity-70,
+.hover-bg-opacity-70:hover{
+    --bs-bg-opacity:.7!important;
+}
 .group-hover:hover .hover-bg-opacity-80,
 .hover-bg-opacity-80:hover{
     --bs-bg-opacity:.8!important;
