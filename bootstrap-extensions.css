@@ -325,7 +325,7 @@
   background: #00000025; 
 }
 
-/* =========== Tansition =========== */
+
 /*----- Text Color ----- */
 
 .group-hover:hover .hover-text-primary,
@@ -368,34 +368,16 @@
 	--bs-text-opacity: 1;
 	color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;
 }	
-	
-.transition-all{
-	transition:all;
-}
-.duration-300{
-	transition-duration: .3s;
-}
-.duration-400{
-	transition-duration: .4s;
-}
-.duration-500{
-	transition-duration: .5s;
-}
-.duration-600{
-	transition-duration: .6s;
-}
-.duration-700{
-	transition-duration: .7s;
-}
-.duration-800{
-	transition-duration: .8s;
-}
-.duration-900{
-	transition-duration: .9s;
-}
-.duration-1000{
-	transition-duration: 1s;
-}
+/* =========== Tansition =========== */
+.transition-all{transition:all;}
+.duration-300{transition-duration: .3s;}
+.duration-400{transition-duration: .4s;}
+.duration-500{transition-duration: .5s;}
+.duration-600{transition-duration: .6s;}
+.duration-700{transition-duration: .7s;}
+.duration-800{transition-duration: .8s;}
+.duration-900{transition-duration: .9s;}
+.duration-1000{transition-duration: 1s;}
 
 /* =========== Transfrom =========== */
 .transform-rotateY-90{
