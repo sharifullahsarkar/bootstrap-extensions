@@ -395,8 +395,18 @@
 .hover-transform-rotateY-0:hover{
     transform:rotateY(0);
 }
-	
-	
+
+/* =========== Z-Index =========== */
+.z-index-10{ z-index:10!important;}
+.z-index-50{ z-index:50!important;}
+.z-index-100{ z-index:100!important;}
+.z-index-1060{ z-index:1060!important;}
+.z-index-1090{ z-index:1090!important;}
+.hover-z-index-10{ z-index:10!important;}
+.hover-z-index-50{ z-index:50!important;}
+.hover-z-index-100{ z-index:100!important;}
+.hover-z-index-1060{ z-index:1060!important;}
+.hover-z-index-1090{ z-index:1090!important;}
 /* ================= Media CSS ============== */	
 
 /* ------- xxl ------- */
