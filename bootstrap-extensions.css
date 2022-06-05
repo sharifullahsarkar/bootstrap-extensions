@@ -352,7 +352,6 @@
 
 
 /*----- Text Color ----- */
-
 .group-hover:hover .hover-text-primary,
 .hover-text-primary:hover{
 	--bs-text-opacity: 1;
@@ -392,7 +391,20 @@
 .hover-text-dark:hover{
 	--bs-text-opacity: 1;
 	color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;
-}	
+}
+/*----- Text Truncate ----- */
+.text-truncate-line{
+	display: -webkit-box!important;
+	overflow: hidden;
+   	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+.text-truncate-line-2{-webkit-line-clamp: 2;}
+.text-truncate-line-3{-webkit-line-clamp: 3;}	
+.text-truncate-line-4{-webkit-line-clamp: 4;}	
+.text-truncate-line-5{-webkit-line-clamp: 5;}
+	
 /* =========== Tansition =========== */
 .transition-all{transition:all;}
 .duration-300{transition-duration: .3s;}
