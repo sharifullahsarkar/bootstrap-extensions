@@ -9,6 +9,9 @@
     height: 0.7rem;
     background-size: 0.7rem;
 }
+.accordion-button-start{padding-left:3rem;}
+.accordion-button-start:after{position:absolute;margin-left:-1.75rem;}
+
 /* =========== Background =========== */
 .bg-no-repeat { background-repeat: no-repeat;}
 .bg-size-cover { background-size: cover;}
