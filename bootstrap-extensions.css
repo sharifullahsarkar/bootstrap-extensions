@@ -64,6 +64,11 @@
 .cursor-zoom-in{
 	cursor:zoom-in;
 }
+/* =========== Display =========== */
+.group-hover:hover .hover-d-block, 
+.hover-d-block:hover { display:block !important;}
+.group-hover:hover .hover-d-none,
+.hover-d-none:hover { display:none !important;}
 /* =========== List =========== */
 .bg-transparent>.list-group-item{
 	background-color:transparent!important;
