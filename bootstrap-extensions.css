@@ -204,6 +204,10 @@
 .hover-bg-opacity-70:hover{
     --bs-bg-opacity:.7!important;
 }
+.group-hover:hover .hover-bg-opacity-75,
+.hover-bg-opacity-75:hover{
+    --bs-bg-opacity:.75!important;
+}
 .group-hover:hover .hover-bg-opacity-80,
 .hover-bg-opacity-80:hover{
     --bs-bg-opacity:.8!important;
@@ -231,18 +235,10 @@
 .overflow-y-scroll{overflow-y: scroll!important;}
 	
 /* ========== Positioning  =========== */
-.top-auto{
-    top:auto!important;
-}
-.end-auto{
-   right:auto!important;
-}
-.bottom-auto{
-   bottom:auto!important;
-}
-.start-auto{
-   left:auto!important;
-}
+.top-auto{top:auto!important;}
+.end-auto{right:auto!important;}
+.bottom-auto{bottom:auto!important;}
+.start-auto{left:auto!important;}
 /* ========== Radius =========== */
 .rounded-top-0{ 
    border-top-left-radius: 0 !important;
