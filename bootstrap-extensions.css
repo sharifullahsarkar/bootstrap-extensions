@@ -366,6 +366,72 @@
 
 
 /*----- Text Color ----- */
+
+/* text-opacity hover */
+.text-opacity-0{ --bs-text-opacity: 0 !important;}
+.text-opacity-10{ --bs-text-opacity:.1!important;}
+.text-opacity-20{ --bs-text-opacity:.2!important;}
+.text-opacity-30{ --bs-text-opacity:.3!important;}
+.text-opacity-40{ --bs-text-opacity:.4!important;}
+.text-opacity-50{ --bs-text-opacity:.5!important;}
+.text-opacity-60{ --bs-text-opacity:.6!important;}
+.text-opacity-70{ --bs-text-opacity:.7!important;}
+.text-opacity-80{ --bs-text-opacity:.8!important;}
+.text-opacity-90{ --bs-text-opacity:.9!important;}
+	
+.group-hover:hover .hover-text-opacity-0,
+.hover-text-opacity-0:hover{
+    --bs-text-opacity:0!important;
+}
+.group-hover:hover .hover-text-opacity-10,
+.hover-text-opacity-10:hover{
+    --bs-text-opacity:.1!important;
+}
+.group-hover:hover .hover-text-opacity-20,
+.hover-text-opacity-20:hover{
+    --bs-text-opacity:.2!important;
+}
+.group-hover:hover .hover-text-opacity-25,
+.hover-text-opacity-25:hover{
+    --bs-text-opacity:.2!important;
+}
+.group-hover:hover .hover-text-opacity-30,
+.hover-text-opacity-30:hover{
+    --bs-text-opacity:.3!important;
+}
+.group-hover:hover .hover-text-opacity-40,
+.hover-text-opacity-40:hover{
+    --bs-text-opacity:.4!important;
+}
+.group-hover:hover .hover-text-opacity-50,
+.hover-text-opacity-50:hover{
+    --bs-text-opacity:.5!important;
+}
+.group-hover:hover .hover-text-opacity-60,
+.hover-text-opacity-60:hover{
+    --bs-text-opacity:.6!important;
+}
+.group-hover:hover .hover-text-opacity-70,
+.hover-text-opacity-70:hover{
+    --bs-text-opacity:.7!important;
+}
+.group-hover:hover .hover-text-opacity-75,
+.hover-text-opacity-75:hover{
+    --bs-text-opacity:.75!important;
+}
+.group-hover:hover .hover-text-opacity-80,
+.hover-text-opacity-80:hover{
+    --bs-text-opacity:.8!important;
+}
+.group-hover:hover .hover-text-opacity-90,
+.hover-text-opacity-90:hover{
+    --bs-text-opacity:.9!important;
+}
+.group-hover:hover .hover-text-opacity-100,
+.hover-text-opacity-100:hover{
+    --bs-text-opacity:1!important;
+}
+
 .group-hover:hover .hover-text-primary,
 .hover-text-primary:hover{
 	--bs-text-opacity: 1;
